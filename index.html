@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>API Test</title>
+    <script src="./js/script.js"></script>
+  
+  </head>
+  <body>
+  
+  
+    <h1>API Test</h1>
+
+    <h2>Listar Usuários</h2>
+    <ul id="user-list"></ul>
+
+    <h2>Criar Novo Usuário</h2>
+    <form id="create-user-form">
+      <label for="create-name">Nome:</label>
+      <input type="text" name="create-name" id="create-name" required />
+      <br />
+      <label for="create-favorite-color">Cor preferida:</label>
+      <input
+        type="text"
+        name="create-favorite-color"
+        id="create-favorite-color"
+        required
+      />
+      <br />
+      <label for="create-address">Endereço:</label>
+      <input type="text" name="create-address" id="create-address" required />
+      <br />
+      <label for="create-email">Email:</label>
+      <input type="email" name="create-email" id="create-email" required />
+      <br />
+      <label for="create-pet-name">Nome do Pet:</label>
+      <input type="text" name="create-pet-name" id="create-pet-name" required />
+      <br />
+      <input type="submit" value="Cadastrar" />
+    </form>
+
+    <hr />
+
+    <h2>Atualizar Usuário</h2>
+    <form id="update-user-form">
+      <input type="hidden" name="update-user-id" id="update-user-id" />
+      <label for="update-name">Nome:</label>
+      <input type="text" name="update-name" id="update-name" required />
+      <br />
+      <label for="update-favorite-color">Cor preferida:</label>
+      <input
+        type="text"
+        name="update-favorite-color"
+        id="update-favorite-color"
+        required
+      />
+      <br />
+      <label for="update-address">Endereço:</label>
+      <input type="text" name="update-address" id="update-address" required />
+      <br />
+      <label for="update-email">Email:</label>
+      <input type="email" name="update-email" id="update-email" required />
+      <br />
+      <label for="update-pet-name">Nome do Pet:</label>
+      <input type="text" name="update-pet-name" id="update-pet-name" required />
+      <br />
+      <input type="submit" value="Atualizar" />
+    </form>
+
+  </body>
+</html>
